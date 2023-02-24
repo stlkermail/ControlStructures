@@ -1,30 +1,30 @@
-#include <iostream>
+п»ї#include <iostream>
 //#include <windows.h>
 
 using namespace std;
 //#define FOR 
-//#define SIMPLE_NUMBERS        // Таблица умножения
+//#define SIMPLE_NUMBERS        // РўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ
 //#define MULTIPLICATION_TABLE
 void main()
 {
 	setlocale(LC_ALL, "");
 #ifdef FOR
-	int n;                                                        // количество итераций
-	cout << "Введите ко-во  итераций: "; cin >> n;
+	int n;                                                        // РєРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕ-РІРѕ  РёС‚РµСЂР°С†РёР№: "; cin >> n;
 
 	for (
 		int i = 0;
 		i < n;
 		i++)
 	{
-		cout << i << "\t";                                       // shift + F5   вывход из отладчика
+		cout << i << "\t";                                       // shift + F5   РІС‹РІС…РѕРґ РёР· РѕС‚Р»Р°РґС‡РёРєР°
 	}
 #endif // FOR
 
 #ifdef SIMPLE_NUMBERS
 	for (int i = 1; i <= 10; i++)
 	{
-		cout << "Таблица умножения на " << i << " :\n";
+		cout << "РўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ РЅР° " << i << " :\n";
 		for (int j = 1; j <= 10; j++)
 		{
 			if (i < 10)
