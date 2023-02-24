@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 
@@ -9,15 +9,15 @@ void main()
 	cout << "Hello Controls!\n" << endl;
 
 	int t;
-	cout << "Ââåäèòå òåìïåðàòóðó âîçäóõà: \n\n"; cin >> t; cout << "\n";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð²Ð¾Ð·Ð´ÑƒÑ…Ð°: \n\n"; cin >> t; cout << "\n";
 
 	if (t > 0)
 	{
-		cout << "Íà óëèöå òåïëî " << endl;
+		cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ‚ÐµÐ¿Ð»Ð¾ " << endl;
 	}
 	else
 	{
-		cout << "\nÍà óëèöå õîëîäíî " << endl;
+		cout << "\nÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ…Ð¾Ð»Ð¾Ð´Ð½Ð¾ " << endl;
 	}
 
 }
