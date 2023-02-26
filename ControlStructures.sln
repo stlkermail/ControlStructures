@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "Geometry\Geomet
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Funcc", "Funcc\Funcc.vcxproj", "{9A4A5D24-D2B3-46DB-96E5-655B8007F745}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeWork", "HomeWork\HomeWork.vcxproj", "{12557C2B-7190-4A2B-B646-C253E754AB7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{9A4A5D24-D2B3-46DB-96E5-655B8007F745}.Release|x64.Build.0 = Release|x64
 		{9A4A5D24-D2B3-46DB-96E5-655B8007F745}.Release|x86.ActiveCfg = Release|Win32
 		{9A4A5D24-D2B3-46DB-96E5-655B8007F745}.Release|x86.Build.0 = Release|Win32
+		{12557C2B-7190-4A2B-B646-C253E754AB7D}.Debug|x64.ActiveCfg = Debug|x64
+		{12557C2B-7190-4A2B-B646-C253E754AB7D}.Debug|x64.Build.0 = Debug|x64
+		{12557C2B-7190-4A2B-B646-C253E754AB7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{12557C2B-7190-4A2B-B646-C253E754AB7D}.Debug|x86.Build.0 = Debug|Win32
+		{12557C2B-7190-4A2B-B646-C253E754AB7D}.Release|x64.ActiveCfg = Release|x64
+		{12557C2B-7190-4A2B-B646-C253E754AB7D}.Release|x64.Build.0 = Release|x64
+		{12557C2B-7190-4A2B-B646-C253E754AB7D}.Release|x86.ActiveCfg = Release|Win32
+		{12557C2B-7190-4A2B-B646-C253E754AB7D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
