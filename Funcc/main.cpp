@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 
 using namespace std;
 
@@ -6,7 +6,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 
-	//Функции
+	//Р¤СѓРЅРєС†РёРё
 
 	/*type name(parameters)
 	{
