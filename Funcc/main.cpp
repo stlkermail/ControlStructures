@@ -6,6 +6,8 @@ void main()
 {
 	setlocale(LC_ALL, "");
 
+	//Функции
+
 	/*type name(parameters)
 	{
 		...;
